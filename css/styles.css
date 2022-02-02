@@ -1,25 +1,49 @@
-h1 {
-    color: #FF0000;
-    font-size: 40px;
+body {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.titulo {
+    color: #ec183f;
+    margin: 23px 0;
+}
+
+.corpo article small {
     font-weight: bold;
-    font-family: 'Merriweather Sans', sans-serif;
 }
-small {
-    font-weight: bold;
+
+.corpo article img {
+    width: 100%;
 }
-.sessao1 img {
-    width: -500px;
-    
+
+.secao-texto {
+    max-width:  1024px;
+
 }
+
+.corpo-texto {
+    margin: 20px o 20px 0;
+}
+
+.separador-artigo {
+    color: white;
+}
+
+
+.rede-social img {
+    width: 42px;
+}
+
 .rodape {
-    text-align: center;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    border-top: 1px solid gray;
+    padding: 20px;
 }
-.rodape li {
-    display: inline;
-    margin-left: 10px;
-}
-.logo {
-    width: 30px;
+
+.lista-rodape {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
 }
